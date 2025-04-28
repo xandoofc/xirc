@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"
+  functions = "functions"
+  publish = "public"
+
+[functions]
+  node_bundler = "esbuild"
+  external_node_modules = ["express"]
